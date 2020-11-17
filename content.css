@@ -1,0 +1,93 @@
+body{
+  width: 1440px;
+  height: auto;
+  background-color: white;
+  position: relative;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 50px;
+  animation-name: horisontal_trash;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.85,.53,.17,.98);
+  animation-iteration-count: infinite;
+  anim
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 50px;
+  border-radius: 50px;
+  animation-name: rotateZ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+
+}
+hr{
+  position: relative;
+  display: flex;
+  width: 1200px;
+  height: 1px;
+  background: black;
+  align-content: center;
+  margin:  50px auto;
+}
+@keyframes horisontal_trash {
+  0% {
+      transform: translateX(0em);
+    }
+    50% {
+      transform: translateX(30em);
+    }
+    100% {
+      transform: translateX(-14em);}
+}
+@keyframes rotate {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.one {
+  transition: all 1.5s 0s ease-in-out;
+  background: black;
+  border-radius: 25px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  transform: rotateZ(75deg);
+}
+
+.one-container {
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.one-container:hover .one {
+  transform: translate(-50%, -50%) rotateZ(15deg);
+  left: 27%;
+}
+
+.two {
+  transition: all 800ms 0s cubic-bezier(.77,-0.7,.24,1.64);
+  background: black;
+  border-radius: 25px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%) rotateX(0deg);
+}
+
+.two:hover {
+  transform: translate(-50%, -50%) rotateX(90deg);
+  left: 75%;
+}
