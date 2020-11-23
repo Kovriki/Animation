@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji animation</title>
+    <style media="screen">
+
+.emoji{
+  width: 160px;
+  height: 160px;
+  display: block;
+  background: url('images/emoji_160_1.png');
+  /* background_position: 0 top; */
+  position: relative;
+  animation
+}
+.emoji_1_e{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_1.png');
+  background-position: -1600px top;
+  animation: blink 1s steps(1) alternate infinite;
+}
+.emoji_1_b{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_1.png');
+  background-position: -1120px top;
+  animation: eyebrows 1s steps(1) alternate infinite;
+}
+.emoji_1_m{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_1.png');
+  background-position: -160px top;
+  animation: smile 1s steps(1) alternate infinite;
+}
+@keyframes blink {
+  0%{ background-position: -800px top }
+  33%{ background-position: -960px top}
+  66%{ background-position: -640px top}
+}
+@keyframes smile {
+  0%{ background-position: -160px top }
+  33%{ background-position:  -320px top}
+  66%{ background-position: -480px top}
+}
+@keyframes eyebrows {
+  0%{ background-position: -1280px top}
+
+  66%{ background-position: -1120px top}
+}
+
+
+.emoji_2{
+  width: 160px;
+  height: 160px;
+  display: block;
+  background: url('images/emoji_160_2.png');
+  /* background_position: 0 top; */
+  position: relative;
+  animation
+}
+.emoji_2_e{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_2.png');
+  background-position: -1600px top;
+  animation: blink_2 1s steps(1) alternate infinite;
+}
+.emoji_2_b{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_2.png');
+  background-position: -1120px top;
+  animation: eyebrows_2 1s steps(1) alternate infinite;
+}
+.emoji_2_m{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_2.png');
+  background-position: -160px top;
+  animation: smile 1s steps(1) alternate infinite;
+}
+@keyframes blink_2 {
+  0%{ background-position: -640px top }
+  33%{ background-position: -800px top}
+  66%{ background-position: -960px top}
+}
+@keyframes smile {
+  0%{ background-position: -160px top }
+  33%{ background-position:  -320px top}
+  66%{ background-position: -480px top}
+}
+@keyframes eyebrows_2 {
+  0%{ background-position: -1280px top}
+  33%{ background-position: -1440px top}
+  66%{ background-position: -1600px top}
+}
+.emoji_3{
+  width: 160px;
+  height: 160px;
+  display: block;
+  background: url('images/emoji_160_2.png');
+  /* background_position: 0 top; */
+  position: relative;
+  animation
+}
+.emoji_3_e{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_3.png');
+  background-position: -1600px top;
+  animation: blink_2 1s steps(1) alternate infinite;
+}
+.emoji_3_b{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_3.png');
+  background-position: -1120px top;
+  animation: eyebrows_2 1s steps(1) alternate infinite;
+}
+.emoji_3_m{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;;
+  top: 0;
+  left: 0;
+  background: url('images/emoji_160_3.png');
+  background-position: -160px top;
+  animation: smile 1s steps(1) alternate infinite;
+}
+    </style>
+  </head>
+  <body>
+    <div class="emoji">
+      <div class="emoji_1_e"></div>
+      <div class="emoji_1_m"></div>
+      <div class="emoji_1_b"></div>
+    </div>
+    <div class="emoji_2">
+      <div class="emoji_2_e"></div>
+      <div class="emoji_2_m"></div>
+      <div class="emoji_2_b"></div>
+    </div>
+    <div class="emoji_3">
+      <div class="emoji_3_e"></div>
+      <div class="emoji_3_m"></div>
+      <div class="emoji_3_b"></div>
+    </div>
+    <div class="emoji_4">
+      <div class="emoji_4_e"></div>
+      <div class="emoji_4_m"></div>
+      <div class="emoji_4_b"></div>
+    </div>
+    <div class="emoji_5">
+      <div class="emoji_5_e"></div>
+      <div class="emoji_5_m"></div>
+      <div class="emoji_5_b"></div>
+    </div>
+  </body>
+</html>
