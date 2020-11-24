@@ -100,9 +100,8 @@ hr{
 .btn {
   width: 100px;
   height: 100px;
-  position: relative;
-  display: block;
-  border-radius: 10px;
+  background-color: black;
+  margin: 50px;
   animation: scale 2s infinite;
   background: black;
 }
