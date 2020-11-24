@@ -97,16 +97,16 @@ hr{
   transform: translate(-50%, -50%) rotateX(90deg);
   left: 75%;
 }
-/* .btn {
+.btn {
   width: 100px;
   height: 100px;
-  position: fixed;
+  position: relative;
   display: block;
   border-radius: 10px;
   animation: scale 2s infinite;
-  background-color: black;
+  background: black;
 }
-@keyframes scale {
+/* @keyframes scale {
   90%{ transform: scale(10);
         transform: rotate(30deg);}
 } */
