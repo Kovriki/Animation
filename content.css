@@ -13,18 +13,19 @@ body{
   animation-duration: 3s;
   animation-timing-function: cubic-bezier(.85,.53,.17,.98);
   animation-iteration-count: infinite;
-  anim
+
 }
 .circle{
   width: 100px;
   height: 100px;
   background-color: black;
   margin: 50px;
-  border-radius: 50px;
-  animation-name: rotateZ;
+  border-radius: 25px;
+  animation-name: rotate;
   animation-duration: 2s;
   animation-timing-function: ease-in;
-
+  animation-duration: infinite;
+  animation: rotate 4s infinite;
 }
 hr{
   position: relative;
@@ -78,7 +79,7 @@ hr{
 .two {
   transition: all 800ms 0s cubic-bezier(.77,-0.7,.24,1.64);
   background: black;
-  border-radius: 25px;
+  border-radius: 50px;
   height: 6em;
   width: 6em;
   position: absolute;
